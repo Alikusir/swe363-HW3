@@ -1,0 +1,87 @@
+.carousel-item{
+    height: 400px;
+} 
+.carousel-item img{
+    height: 400px;
+}
+
+.kfupmlogo{
+    width: 50%;
+    height: 50%;
+}
+.cen{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.search-hover {
+  background: url(http://www.iconsdb.com/icons/preview/white/search-12-xxl.png) no-repeat;
+  border: 1px solid #ccc;
+  outline: none;
+  background-size: 22px;
+  background-position: 13px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+  transition: all .5s;
+}
+.search-hover:hover{
+  width: 300px;
+  padding-left: 50px;
+}
+/* taken from boostrap-menu.com
+*/
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0; color: #5cb85c;  }
+	.navbar .nav-item:hover .nav-link{ color: black;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;}
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; 
+    transform: rotateX(0deg);}
+}	
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 150px;
+  background: #5cb85c;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px; top:300px;
+  }
+  .sidenav a {font-size: 18px;}
+}
+
+.prog-add-img{
+  height:450px;
+  width: 500px;
+}
+
+.pimage{
+  height: 500px;
+  width: 450px;
+}
